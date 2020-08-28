@@ -42,8 +42,9 @@ background-color: #44bcd8;
 	border:none;
 	background-color: #fff;
 	padding: 10px;
-	color: rgba(18,5,0,.3);
-	border-radius: 6px;
+	color: #000;
+    border-radius: 6px;
+    cursor: pointer;
 	
 }
 .h h1{
