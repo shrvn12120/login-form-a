@@ -1,15 +1,16 @@
 *{
 	border-radius: 0;
+	font-family: sans-serif;
 }
 body {
 margin: 0px;
 padding: 0px;
 display: block;
-background-color: #44bcd8;
+background-color: #44bdd8;
 }
 
 .container{
-	background-color: #3525;
+	background-color: rgba(51, 85, 34, 0.37);
 	height: 300px;
 	width: 300px;
 	position: absolute;
@@ -30,9 +31,11 @@ background-color: #44bcd8;
 	transform: translate(-50%, -50%);
 	opacity: .8;
 	border-radius: 6px;
+	text-align: center;
 	
 	
 }
+
 .btn{
 	display: flex;
 	position: relative;
@@ -42,11 +45,17 @@ background-color: #44bcd8;
 	border:none;
 	background-color: #fff;
 	padding: 10px;
-	color: #000;
-    border-radius: 6px;
-    cursor: pointer;
+	color: rgb(116, 110, 115);
+	border-radius: 6px;
+	cursor: pointer;
+    
 	
 }
+.btn:hover{
+	background-color:rgb(68, 67, 67);
+	color: #fff;
+}
+
 .h h1{
 	display: block;
 	text-align: center;
@@ -56,6 +65,101 @@ background-color: #44bcd8;
 	font-weight: 700;
 	color: #fff;
 	letter-spacing: 1rem;
+	
+	
+}
+.f-password{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, 100px);
+	
+}
+.f-password a{
+	text-decoration: none;
+	color: #fff;
+	font-weight: lighter;
+	letter-spacing: 3px;
+	font-size: small;
+}
+.f-password a:hover{
+	text-decoration: none;
+	color: rgb(68, 67, 67);
+	font-weight: lighter;
+	letter-spacing: 3px;
+	font-size: small;
+	transition-duration: .3s;
+	
+}
+.create{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, 150px);
+	text-align: center;
+
+
+}
+.create h5{
+	color: rgb(68, 67, 67);
+	font-size: 1rem;
+	letter-spacing: 3px;
+	font-weight: bold;
+	
+	
+}
+.create a{
+	text-decoration: none;
+	color: rgb(68, 67, 67);
+	letter-spacing: 2px;
+
+}
+.create a:hover{
+	color: rgb(219, 216, 216);	
+	transition: 0.3s;
+}
+.invalid{
+	position: absolute;
+	left: 50%;
+	top: 55%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+.invalid-user{
+	padding: 0;
+	line-height: 70px;
+	margin-bottom: 9px;
+	display: none;
+	font-family: sans-serif;
+	color: rgb(199, 0, 0);
+	letter-spacing: 1px;
+	font-weight: 700;
+	font-size: 12px;
+	text-transform: uppercase;
+	margin: 0;
+	user-select: none;
+	position: relative;
+	left: 100px;
+	top: -91px;
+	
+	
+}
+.invalid-pass{
+	padding: 0;
+	line-height: 70px;
+	margin-bottom: 9px;
+	display: none;
+	font-family: sans-serif;
+	color: rgb(199, 0, 0);
+	letter-spacing: 1px;
+	font-weight: 700;
+	font-size: 12px;
+	text-transform: uppercase;
+	margin: 0;
+	user-select: none;
+	position: relative;
+	top: -89px;
+	left: 81px;
 	
 	
 }
