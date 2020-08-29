@@ -1,19 +1,39 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>login page</title>
-		<link rel="stylesheet" href="style.css">
-	</head>
-	<body>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>login page</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
 	<div class="h">
 			<h1>Login page</h1>
 	</div>
-		<form class="container">  
-			<input type="name" id="userName" placeholder="User Name" class="input" required>
+	
+		<form class="container" action="#"> 
+			
+			<input type="name" id="userName" placeholder="User Name" class="input">
+			
 			<input type="password" id="Password" placeholder="Password" class="input">
+			
 			<button class="btn" onclick="myFunction()" id="login">Login</button>
+			<div class="f-password">
+				<h5><a href="#">Forgot password</a></h5>
+			</div>
+				<div class="invalid-user" id="xuser">Invalid user</div>
+				<div class="invalid-pass" id="xpass">Invalid password</div>
 		</form>
+		
+		<div class="create">
+			<h5>
+				Dont have an account ?
+			</h5>
+			<a href="#">create an account</a>
+		</div>
+
+	
 	<script type="text/javascript" src="main.js">
 	</script>
 	</body>
-</html>
+</html> 
